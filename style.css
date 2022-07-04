@@ -11,7 +11,7 @@
 
 /* top-baner section style start now */
 
-section {
+.flexable-container {
     display: flex;
 
 }
@@ -76,3 +76,41 @@ p {
 }
 
 /* dream big section style end now */
+
+/* exprience section style start now */
+.exprience-section {
+
+    padding-bottom: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.exp-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border-left: 5px solid red;
+}
+
+#baby-developer {
+    border-left: 5px solid blue;
+}
+
+.ex-h {
+    padding: 0;
+    padding-top: 15px;
+}
+
+/* exprience section style end now */
+
+/* footer style start now */
+footer p {
+    text-align: center;
+}
+
+/* footer style end now */
